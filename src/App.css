@@ -1,0 +1,82 @@
+/* Base styles, mobile-first approach */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.header,
+.cat-fact,
+.photo-section,
+.meme-generator-link,
+.contact-link,
+.footer {
+  padding: 20px;
+}
+
+.cat-fact {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.photo-section,
+.meme-generator-link,
+.contact-link {
+  margin-bottom: 20px;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .header,
+  .cat-fact,
+  .photo-section,
+  .meme-generator-link,
+  .contact-link,
+  .footer {
+    padding: 40px;
+  }
+
+  .cat-fact,
+  .photo-section,
+  .meme-generator-link,
+  .contact-link {
+    margin-bottom: 40px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .cat-fact,
+  .photo-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cat-fact {
+    flex-direction: column;
+  }
+
+  .photo-section {
+    align-items: center;
+  }
+
+  .meme-generator-link,
+  .contact-link {
+    display: inline-block;
+    width: 48%; /* Slightly less than half the container width to fit side by side */
+    margin-bottom: 0;
+  }
+
+  .meme-generator-link {
+    margin-right: 4%; /* Spacing between the two links */
+  }
+}

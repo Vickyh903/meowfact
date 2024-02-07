@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and navigation */
+    height:60px;
+    padding: 20px; /* Padding on the sides */
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: #E7FC4D; 
+    /*opacity: .5; */
+    color: #000000; 
+    font-family: "outfit", sans-serif;  }
+    
+  
+  .header-logo {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  
+  /* Navigation styles for desktop */
+
+
+
+
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  .nav-links{
+    list-style: none; /* Remove list bullets */
+    display: flex; /* Display links in a row */
+    gap: 30px; /* Space between links */
+    position: relative;
+    
+    
+  }
+  
+ .nav-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:black;
+ }
+  
+ .nav-links li{
+  border-radius: 34px;
+  border: 2px solid #414900;
+  background: #dcf901;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 8px 20px;
+  align-items: center; 
+  transition-duration: 0.4s;
+}
+
+.nav-links li:hover {
+  border-radius: 34px;
+  border: 2px solid #333400;
+  background: #f6fa00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
+}
+#mobile-icon {
+  display: none; 
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  #mobile-icon {
+    display:flex; 
+    cursor: pointer;
+    font-size: 36px;
+  
+  }
+
+  .nav-links {
+    /* Converts the nav-links to a vertical layout */
+    display: none;
+    flex-direction: column;
+    gap: 10px; /* Adjust the space between links for mobile layout */
+  }
+
+  .navbar.active .nav-links {
+    display: flex; /* Or 'block', depending on your layout */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    position:fixed;
+    top:90px;
+    right:0px;
+    width: 300px;
+    height: 100vh;
+    background:#E7FC4D;
+    padding:20px 0 0 10px;
+    transition: opacity 0.3s ease-in-out;
+    /* Stack the links vertically on mobile */
+    /* Add other styles for spacing, background, etc. */
+  }
+  .nav-links li{
+    margin-bottom: 25px;
+
+  }
+
+
+}

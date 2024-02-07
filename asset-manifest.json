@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/meowfact/static/css/main.32559914.css",
+    "main.js": "/meowfact/static/js/main.1b201d43.js",
+    "index.html": "/meowfact/index.html",
+    "main.32559914.css.map": "/meowfact/static/css/main.32559914.css.map",
+    "main.1b201d43.js.map": "/meowfact/static/js/main.1b201d43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32559914.css",
+    "static/js/main.1b201d43.js"
+  ]
+}

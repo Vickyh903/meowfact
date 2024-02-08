@@ -18,11 +18,19 @@ function Home() {
   }
 
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p> {catData?.fact} </p>
-      <button onClick={refetch}>More </button>
+    <div className="main-content">
 
+      <div className="section1">
+        <h1 className="catFact-title">CAT FACT !</h1>
+        <div className="catFact-box">
+            <p className="catFact-subtitle">Did you know ?</p>
+            <p> {catData?.fact} </p>
+            <button className="home-button" 
+              onClick={refetch}>More </button>
+            <img className="catFact-gif"  width="150px"
+            src={`${process.env.PUBLIC_URL}/gif/meowfact1.gif`}  />
+        </div>
+      </div>
     </div>
   )
 }

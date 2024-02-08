@@ -1,47 +1,82 @@
 /* Base styles, mobile-first approach */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "outfit", 'Roboto', 'sans-serif' ;
+  font-size: 24px;
+  
 }
 
-.header,
-.cat-fact,
-.photo-section,
-.meme-generator-link,
-.contact-link,
-.footer {
+/* Phone styles */
+/* Home Page */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center; /* Center content for mobile */
+}
+
+.section1{
+  
+  background-image: url('../public/images/bg-color.png');
+  background-repeat: repeat;
+  height: 900px;
+  
+  
+}
+
+.catFact-title {
+  color: #FF68F9;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: "Paytone One";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: rotate(-2.8deg);
+  z-index: 1;
+
+}
+
+.catFact-box{
+  width: 360px;
+  flex-shrink: 0;
+  border: 3px solid #000;
+  background: #FFF;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
+  margin-top: -90px;
+
 }
 
-.cat-fact {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
+.catFact-subtitle{
+  color: #000;
+  font-family: "Gochi Hand";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.photo-section,
-.meme-generator-link,
-.contact-link {
-  margin-bottom: 20px;
+.home-button{
+  display: inline-flex;
+  padding: 12px 105px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 34px;
+  border: 2px solid #000;
+  background: #FF68F9;
+  margin: 10px;
+    /*font style */
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-/* Tablet styles */
-@media (min-width: 768px) {
-  .header,
-  .cat-fact,
-  .photo-section,
-  .meme-generator-link,
-  .contact-link,
-  .footer {
-    padding: 40px;
-  }
-
-  .cat-fact,
-  .photo-section,
-  .meme-generator-link,
-  .contact-link {
-    margin-bottom: 40px;
-  }
-}
 
 /* Desktop styles */
 @media (min-width: 1024px) {
@@ -50,33 +85,14 @@ body {
     margin: 0 auto;
   }
 
-  .header,
-  .footer {
-    text-align: center;
-  }
-
-  .cat-fact,
-  .photo-section {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .cat-fact {
-    flex-direction: column;
-  }
-
-  .photo-section {
-    align-items: center;
-  }
-
-  .meme-generator-link,
-  .contact-link {
-    display: inline-block;
-    width: 48%; /* Slightly less than half the container width to fit side by side */
-    margin-bottom: 0;
-  }
-
-  .meme-generator-link {
-    margin-right: 4%; /* Spacing between the two links */
-  }
+  
+ 
 }
+
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+
+}
+

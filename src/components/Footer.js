@@ -20,6 +20,7 @@ const Footer = () => {
               Contact Us
           </NavLink>
         </div>
+        
         <div className="footer-rights">
         <p> © Created by Vicky He. All rights reserved.</p>
       </div>

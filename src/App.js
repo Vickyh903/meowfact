@@ -30,9 +30,9 @@ function App() {
         <Route path="/meme-generator" element={<MemeGenerator />} />
         <Route path="/contact-us" element={<ContactUs />} />
         
-        /*<Route path="*" element={<NotFound />} /> {/* Use the NotFound component for unmatched routes */} 
+        <Route path="*" element={<NotFound />} /> {/* Use the NotFound component for unmatched routes */} 
       </Routes>
-       
+      <Footer />
     </Router>
     </QueryClientProvider>
   );

@@ -22,7 +22,7 @@ function App() {
   }});
   return (
     <QueryClientProvider client={client}>
-    <Router>
+    <Router basename='/meowfact'>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

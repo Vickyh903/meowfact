@@ -80,12 +80,6 @@ body {
   line-height: normal;
 }
 
-.home-cat{
-  display: flex;
-  flex-direction: column;
-  margin:  -20px auto 0 auto;
-}
-
 .home-section2{
   width: 100%;
   height: auto;
@@ -97,7 +91,7 @@ body {
 
 .home-green{
   position: absolute;
-  bottom:-400px;
+  bottom:-500px;
   left: -40px;
   width: 200px;
 
@@ -113,10 +107,15 @@ body {
 
 .home-toy{
   position: absolute;
-  bottom: -400px;
+  bottom: -450px;
   left: 10px;
 }
 
+.home-cat{
+  display: flex;
+  flex-direction: column;
+  margin:  -20px auto 0 auto;
+}
 
 
 

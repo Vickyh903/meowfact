@@ -35,10 +35,11 @@ function Home() {
             <img className="catFact-gif"  width="150px"
             src={`${process.env.PUBLIC_URL}/gif/meowfact1.gif`}  />
         </div>
-        <img className="home-cat" width="400px" 
-          src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
+        
         <img className="home-toy" width="80px"
           src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
+        <img className="home-cat" width="400px" 
+          src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
        
       </div>
       <div className="section2">

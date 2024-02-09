@@ -90,13 +90,16 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  margin-top: 40px;
+  margin: 90px 10px -10px 10px;
+  
+  
 }
 
 .home-green{
   position: absolute;
-  bottom:-100px;
+  bottom:-300px;
   left: -30px;
+  width: 240px;
 
 
 }
@@ -104,12 +107,13 @@ body {
 .home-blue{
   position: absolute;
   top: 80px;
-  right: -30px;
+  right: -40px;
+  width: 230px;
 }
 
 .home-toy{
   position: absolute;
-  bottom: -120px;
+  bottom: -300px;
   left: 20px;
 }
 

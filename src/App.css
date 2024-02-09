@@ -89,7 +89,7 @@ body {
 
 .home-green{
   position: absolute;
-  bottom:100px;
+  bottom:-100px;
   left: -60px;
   width: 150px;
 
@@ -105,7 +105,7 @@ body {
 
 .home-toy{
   position: absolute;
-  bottom: -450px;
+  bottom: -350px;
   left: 10px;
 }
 

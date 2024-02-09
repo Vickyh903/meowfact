@@ -21,6 +21,11 @@ function Home() {
     <div className="home-main-content">
 
       <div className="section1">
+      <img className="home-green" width="250px"
+          src={`${process.env.PUBLIC_URL}/images/bg-green.png`} />
+        <img className="home-blue" width="250px"
+          src={`${process.env.PUBLIC_URL}/images/bg-blue.png`} />
+
         <h1 className="catFact-title">CAT FACT !</h1>
         <div className="catFact-box">
             <p className="catFact-subtitle">Did you know ?</p>
@@ -32,6 +37,9 @@ function Home() {
         </div>
         <img className="home-cat" width="400px" 
           src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
+        <img className="home-toy" width="100px"
+          src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
+       
       </div>
       <div className="section2">
         <img className="home-section2" 

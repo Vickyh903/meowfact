@@ -90,8 +90,31 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  margin-top: 50px;
+  margin-top: 40px;
 }
+
+.home-green{
+  position: absolute;
+  bottom:-100px;
+  left: -30px;
+
+
+}
+
+.home-blue{
+  position: absolute;
+  top: 80px;
+  right: -30px;
+}
+
+.home-toy{
+  position: absolute;
+  bottom: -120px;
+  left: 20px;
+}
+
+
+
 
 /* Desktop styles */
 @media (min-width: 1024px) {

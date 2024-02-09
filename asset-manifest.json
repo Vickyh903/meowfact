@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/meowfact/static/css/main.486a3118.css",
-    "main.js": "/meowfact/static/js/main.1fb8de48.js",
-    "static/media/bg-color.png": "/meowfact/static/media/bg-color.eeb289426766ba1c035c.png",
+    "main.css": "/meowfact/static/css/main.bbec281f.css",
+    "main.js": "/meowfact/static/js/main.ca9face1.js",
+    "static/media/bg.png": "/meowfact/static/media/bg.a16ceefb81d8ae99ee54.png",
     "index.html": "/meowfact/index.html",
-    "main.486a3118.css.map": "/meowfact/static/css/main.486a3118.css.map",
-    "main.1fb8de48.js.map": "/meowfact/static/js/main.1fb8de48.js.map"
+    "main.bbec281f.css.map": "/meowfact/static/css/main.bbec281f.css.map",
+    "main.ca9face1.js.map": "/meowfact/static/js/main.ca9face1.js.map"
   },
   "entrypoints": [
-    "static/css/main.486a3118.css",
-    "static/js/main.1fb8de48.js"
+    "static/css/main.bbec281f.css",
+    "static/js/main.ca9face1.js"
   ]
 }

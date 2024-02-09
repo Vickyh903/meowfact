@@ -2,12 +2,14 @@
 body {
   font-family: "outfit", 'Roboto', 'sans-serif' ;
   font-size: 24px;
+  display:flex;
+  flex-direction: column;
   
 }
 
 /* Phone styles */
 /* Home Page */
-.main-content {
+.home-main-content {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -16,9 +18,9 @@ body {
 
 .section1{
   
-  background-image: url('../public/images/bg-color.png');
+  background-image: url('../public/images/bg.png');
   background-repeat: repeat;
-  height: 900px;
+  height: 1030px;
   
   
 }
@@ -28,7 +30,7 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
   font-family: "Paytone One";
-  font-size: 90px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -38,14 +40,14 @@ body {
 }
 
 .catFact-box{
-  width: 360px;
+  width: 340px;
   flex-shrink: 0;
   border: 3px solid #000;
   background: #FFF;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  margin-top: -90px;
+  margin-top: -70px;
 
 }
 
@@ -77,6 +79,17 @@ body {
   line-height: normal;
 }
 
+.home-cat{
+  display: flex;
+  flex-direction: column;
+  margin:  -20px auto 0 auto;
+}
+
+.home-section2{
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* Desktop styles */
 @media (min-width: 1024px) {

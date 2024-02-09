@@ -18,7 +18,7 @@ function Home() {
   }
 
   return (
-    <div className="main-content">
+    <div className="home-main-content">
 
       <div className="section1">
         <h1 className="catFact-title">CAT FACT !</h1>
@@ -30,6 +30,12 @@ function Home() {
             <img className="catFact-gif"  width="150px"
             src={`${process.env.PUBLIC_URL}/gif/meowfact1.gif`}  />
         </div>
+        <img className="home-cat" width="400px" 
+          src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
+      </div>
+      <div className="section2">
+        <img className="home-section2" 
+          src={`${process.env.PUBLIC_URL}/images/home-set2.png`} />
       </div>
     </div>
   )

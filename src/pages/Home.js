@@ -37,7 +37,7 @@ function Home() {
         </div>
         <img className="home-cat" width="400px" 
           src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
-        <img className="home-toy" width="100px"
+        <img className="home-toy" width="80px"
           src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
        
       </div>

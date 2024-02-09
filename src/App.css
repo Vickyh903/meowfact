@@ -97,9 +97,9 @@ body {
 
 .home-green{
   position: absolute;
-  bottom:-300px;
-  left: -30px;
-  width: 240px;
+  bottom:-400px;
+  left: -40px;
+  width: 200px;
 
 
 }
@@ -108,13 +108,13 @@ body {
   position: absolute;
   top: 80px;
   right: -40px;
-  width: 230px;
+  width: 200px;
 }
 
 .home-toy{
   position: absolute;
-  bottom: -300px;
-  left: 20px;
+  bottom: -400px;
+  left: 10px;
 }
 
 

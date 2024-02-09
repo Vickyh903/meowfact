@@ -30,7 +30,7 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
   font-family: "Paytone One";
-  font-size: 70px;
+  font-size: 68px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -40,7 +40,7 @@ body {
 }
 
 .catFact-box{
-  width: 340px;
+  width: 300px;
   flex-shrink: 0;
   border: 3px solid #000;
   background: #FFF;
@@ -58,6 +58,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 20px 0 -5px 0;
 }
 
 .home-button{
@@ -89,6 +90,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  margin-top: 20px;
 }
 
 /* Desktop styles */

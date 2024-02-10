@@ -4,25 +4,18 @@ body {
   font-size: 24px;
   display:flex;
   flex-direction: column;
+  background-image: url('../public/images/bg.png');
+  background-repeat: repeat;
   
 }
 
-/* Phone styles */
+/* Mobile styles */
 /* Home Page */
 .home-main-content {
   display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center; /* Center content for mobile */
-}
-
-.section1{
-  
-  background-image: url('../public/images/bg.png');
-  background-repeat: repeat;
-  height: 1030px;
-  
-  
 }
 
 .catFact-title {
@@ -85,6 +78,7 @@ body {
   height: auto;
   display: block;
   margin: 50px 0px -10px 0px;
+  background-color: white;
 }
 
 .home-green{
@@ -92,8 +86,6 @@ body {
   bottom:-100px;
   left: -60px;
   width: 150px;
-
-
 }
 
 .home-blue{
@@ -110,8 +102,7 @@ body {
 }
 
 .home-cat{
-  display: flex;
-  flex-direction: column;
+  width:500px;
   margin:  -20px auto 0 auto;
 }
 
@@ -119,19 +110,128 @@ body {
 
 /* Desktop styles */
 @media (min-width: 1024px) {
-  .container {
-    width: 960px;
+
+  .section1 {
+    display: flex;
+    flex-direction: row; /* Change to row to have side-by-side layout */
+    height: auto; /* Adjust height as necessary */
+    padding: 0; /* Add some padding around the content */
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
   }
 
+  .home-cat {
+    order: 1; /* Ensure home-cat is on the left */
+    flex-basis: 50%; /* Take up half of the container width */
+    display: flex;
+    justify-content: center; /* Center the cat image vertically if needed */
+    align-items:center; /* Align the cat image to the start (left side) */
+   
+    }
+    
   
- 
+  .home-set1-right{
+    order: 2; 
+    flex-basis: 50%; /* Take up half of the container width */
+    display: flex; 
+    flex-direction: column; /* Stack title and box vertically */
+    align-items: flex-start;
+  }
+
+  .catFact-title {
+    text-align: center; /* Center-align the title */
+    margin-top: -330px;
+  }
+
+  .catFact-box {
+    width: 500px; /* Or adjust based on your design */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the box content */
+    text-align: center; /* Ensure text inside the box is centered */
+    position: absolute;
+    top: 280px;
+
+  }
+
+  .home-green{
+    position: absolute;
+    bottom:50px;
+    left: 0px;
+    width: 200px;
+  }
+  .home-toy{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
 }
 
 
 
 /* Tablet styles */
 @media (min-width: 768px) {
+  .section1 {
+    display: flex;
+    flex-direction: row; /* Change to row for side-by-side layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align items vertically in the center */
+    padding: 0; /* Adjust padding as needed */
+    height: 900px;
+    
+  }
+
+  .home-cat {
+    order: 1; /* Ensure home-cat is on the left */
+    flex-basis: 50%; /* Take up half of the container width */
+    justify-content: center; /* Center the cat image vertically, if needed */
+    align-items: flex-start; /* Align the cat image to the start (left side) */
+    width: 500px; /* Or specify a width, if you want to control the size of the image */
+  }
+
+  .home-set1-right {
+    order: 2; /* Ensure this content is on the right */
+    flex-basis: 50%; /* Take up half of the container width */
+    display: flex;
+    flex-direction: column; /* Stack title and box vertically */
+    justify-content: center;
+    align-items: center; /* Center-align the content */
+    position:relative;
+    
+  }
+
+  .catFact-title {
+    text-align: center; /* Center-align the title */
+    margin-top:-540px;
+    
+    
+  }
+
+  .catFact-box {
+    width: 300px; /* Adjust based on your design, could be different for tablet */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the box content */
+    text-align: center; /* Ensure text inside the box is centered */
+    position: absolute;
+    top:-200px;
+  }
+
+  .home-green{
+    position: absolute;
+    bottom:200px;
+    left: -20px;
+    width: 200px;
+    z-index: -1;
+
+  }
+  .home-toy{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
 
 }
-

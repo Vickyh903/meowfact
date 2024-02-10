@@ -21,27 +21,34 @@ function Home() {
     <div className="home-main-content">
 
       <div className="section1">
-      <img className="home-green" width="250px"
-          src={`${process.env.PUBLIC_URL}/images/bg-green.png`} />
-        <img className="home-blue" width="250px"
-          src={`${process.env.PUBLIC_URL}/images/bg-blue.png`} />
 
-        <h1 className="catFact-title">CAT FACT !</h1>
-        <div className="catFact-box">
+
+        <div className="home-set1-right">
+          <h1 className="catFact-title">CAT FACT !</h1>
+          <div className="catFact-box">
             <p className="catFact-subtitle">Did you know ?</p>
-            <p> {catData?.fact} </p>
+            <p className="catData"> {catData?.fact} </p>
             <button className="home-button" 
               onClick={refetch}>More </button>
             <img className="catFact-gif"  width="150px"
             src={`${process.env.PUBLIC_URL}/gif/meowfact1.gif`}  />
+          </div>
         </div>
         
-        <img className="home-toy" width="80px"
-          src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
-        <img className="home-cat" width="400px" 
+        
+        <img className="home-cat" 
           src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
        
       </div>
+
+      <img className="home-green" width="250px"
+          src={`${process.env.PUBLIC_URL}/images/bg-green.png`} />
+        <img className="home-blue" width="250px"
+          src={`${process.env.PUBLIC_URL}/images/bg-blue.png`} />
+          <img className="home-toy" width="80px"
+          src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
+
+
       <div className="section2">
         <img className="home-section2" 
           src={`${process.env.PUBLIC_URL}/images/home-set2.png`} />

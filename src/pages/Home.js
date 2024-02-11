@@ -1,6 +1,7 @@
 import React from 'react';
 import {useQuery} from "@tanstack/react-query";
 import Axios from "axios";
+import '../App.css';
 
 function Home() {
   const { data:catData, isLoading, isError, refetch } = useQuery({
@@ -20,13 +21,13 @@ function Home() {
   return (
     <div className="home-main-content">
 
-      <div className="section1">
+      <section className="section1">
 
 
         <div className="home-set1-right">
           <h1 className="catFact-title">CAT FACT !</h1>
           <div className="catFact-box">
-            <p className="catFact-subtitle">Did you know ?</p>
+            <h2 className="catFact-subtitle">Did you know ?</h2>
             <p className="catData"> {catData?.fact} </p>
             <button className="home-button" 
               onClick={refetch}>More </button>
@@ -39,7 +40,7 @@ function Home() {
         <img className="home-cat" 
           src={`${process.env.PUBLIC_URL}/images/home-cat.png`} />
        
-      </div>
+      </section>
 
       <img className="home-green" width="250px"
           src={`${process.env.PUBLIC_URL}/images/bg-green.png`} />
@@ -49,10 +50,10 @@ function Home() {
           src={`${process.env.PUBLIC_URL}/images/home-toy.png`} />
 
 
-      <div className="section2">
+      <section className="section2">
         <img className="home-section2" 
           src={`${process.env.PUBLIC_URL}/images/home-set2.png`} />
-      </div>
+      </section>
     </div>
   )
 }

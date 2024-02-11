@@ -8,6 +8,8 @@ import MemeGenerator from './pages/MemeGenerator';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound'; // Import the NotFound component
 import './App.css';
+import './pages/FunMeowPhotos.css';
+import './pages/MemeGenerator.css';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 
 

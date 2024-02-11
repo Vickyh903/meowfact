@@ -1,0 +1,99 @@
+.meme-title{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: "Gochi Hand";
+    font-size: 4.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 0 20px 0;
+  }
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+    padding: 30px;
+    
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    text-indent: 10px;border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFFEF7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    
+}
+
+.form--button {
+    display: flex;
+    grid-column: 1 / -1;
+    padding: 28px 100px ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    border: 2px solid #000;
+    background: #FF68F9;
+    margin: 10px;
+      /*font style */
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right:auto;
+
+  }
+
+
+.meme {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.meme--image {
+    max-width: auto;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 20px;
+}
+
+.top {
+    top:20px;
+}

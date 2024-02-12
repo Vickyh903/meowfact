@@ -21,6 +21,13 @@ const Header = () => {
       </NavLink>
       <nav className={isNavVisible ? "navbar active" : "navbar"}>
         <ul className="nav-links">
+
+          <li onClick={closeNav}>
+            <NavLink to="/" activeClassName="active-link">
+              Home
+            </NavLink>
+          </li>
+
           <li onClick={closeNav}>
             <NavLink to="/fun-meow-photos" activeClassName="active-link">
               Fun Meow Photos

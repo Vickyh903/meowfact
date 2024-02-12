@@ -47,7 +47,7 @@ return (
         <div className="container">
         <div className="form">
             <input 
-                type="text"
+                type="text" 
                 placeholder="Top text"
                 className="form--input"
                 name="topText"

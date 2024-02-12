@@ -4,11 +4,11 @@
     justify-content: center;
     color: #000;
     font-family: "Gochi Hand";
-    font-size: 4.5vw;
+    font-size: 4.8vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 10px 0;
   }
 
 .form {
@@ -16,7 +16,7 @@
     grid-template: 1fr 1fr;
     grid-template-rows: 40px 40px 18px;
     gap: 30px;
-    margin-bottom: 10px 50px 20px 20px;
+    margin-bottom: 0px 50px 20px 20px;
     padding: 30px;
     
 }
@@ -40,7 +40,7 @@
 .form--button {
     display: flex;
     grid-column: 1 / -1;
-    padding: 28px 100px ;
+    padding: 26px 100px ;
     justify-content: center;
     align-items: center;
     border-radius: 34px;
@@ -50,7 +50,7 @@
       /*font style */
     color: #FFF;
     font-family: Outfit;
-    font-size: 26px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     margin-left: auto;

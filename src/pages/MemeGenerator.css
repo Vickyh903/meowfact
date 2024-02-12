@@ -3,7 +3,7 @@
     justify-content: center;
     color: #000;
     font-family: "Gochi Hand";
-    font-size: 4.2vw;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -60,8 +60,8 @@
 }
 
 .meme--image {
-    max-width: auto;
-    height: 500px;
+    max-width:100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -71,10 +71,10 @@
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    margin: 15px 0;
+    margin: 5px 0;
     padding: 0 5px;
     font-family: impact, sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     text-transform: uppercase;
     color: white;
     letter-spacing: 1px;
@@ -96,4 +96,12 @@
 
 .top {
     top:20px;
+}
+
+
+.container {
+    display: flex; /* or 'grid' */
+    flex-direction: column; /* if using flex */
+    gap: 10px; /* spacing between items */
+    padding: 10px;
 }

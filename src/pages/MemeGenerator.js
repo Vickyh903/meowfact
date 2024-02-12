@@ -44,6 +44,7 @@ function handleChange(event) {
 return (
     <main>
         <h1 className="meme-title">Craft a fun cat image for unexpected delights!</h1>
+        <div className="container">
         <div className="form">
             <input 
                 type="text"
@@ -72,6 +73,7 @@ return (
             <img src={meme.randomImage} className="meme--image" />
             <h2 className="meme--text top">{meme.topText}</h2>
             <h2 className="meme--text bottom">{meme.bottomText}</h2>
+        </div>
         </div>
     </main>
 )

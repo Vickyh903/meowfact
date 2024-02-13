@@ -10,6 +10,7 @@ import NotFound from './pages/NotFound'; // Import the NotFound component
 import './App.css';
 import './pages/FunMeowPhotos.css';
 import './pages/MemeGenerator.css';
+import './pages/ContactUs.css';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 
 

@@ -1,235 +1,224 @@
-/* Mobile styles */
+/* Desktop styles */
 
-.home-main-content {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center; /* Center content for mobile */
-  }
-  
-  
-  
-  
-  .catFact-title {
-    color: #FF68F9;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    font-family: "Paytone One";
-    font-size: 68px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    transform: rotate(-2.8deg);
-    z-index: 1;
-  
-  }
-  
-  .catFact-box{
-    width: 300px;
-    flex-shrink: 0;
-    border: 3px solid #000;
-    background: #FFF;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    margin-top: -70px;
-  
-  }
-  
-  .catFact-subtitle{
-    color: #000;
-    font-family: "Gochi Hand";
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 20px 0 -5px 0;
-  }
-  
-  .home-button{
-    display: inline-flex;
-    padding: 12px 105px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 34px;
-    border: 2px solid #000;
-    background: #FF68F9;
-    margin: 10px;
-      /*font style */
-    color: #FFF;
-    font-family: Outfit;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  
-  .home-section2{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 50px 0px -10px 0px;
-    background-color: white;
-  }
-  
-  .home-green{
-    position: absolute;
-    bottom:-100px;
-    left: -60px;
-    width: 150px;
-  }
-  
-  .home-blue{
-    position: absolute;
-    top: 80px;
-    right: -40px;
-    width: 200px;
-    z-index: -1;
-  
-  }
-  
-  .home-toy{
-    position: absolute;
-    bottom: -350px;
-    left: 10px;
-  }
-  
-  .home-cat{
-    width:80%;
-    margin:  -20px auto 0 auto;
-  }
-  
-  
-  
-  /* Desktop styles */
-  @media (min-width: 1024px) {
-  
     .section1 {
       display: flex;
       flex-direction: row; /* Change to row to have side-by-side layout */
-      height: auto; /* Adjust height as necessary */
-      padding: 0; /* Add some padding around the content */
+      width: 100%; 
+      
       justify-content: center;
       align-items: center;
-      margin:  auto ;
+      margin: auto;
     }
-  
+
     .home-cat {
-      order: 1; /* Ensure home-cat is on the left */
-       /* flex-basis: 50%; */
-       width: 50%;
-  
+       
+        flex-basis: 50%; /* Take up half of the container width */
+        width: 500px; /* Or specify a width, if you want to control the size of the image */
+        width: 100%; /* Adjust to be more responsive */
+        max-width: 600px; /* Ensures it doesn't exceed this width but can shrink */
       }
-  
-      
-    
-    .home-set1-right{
-      order: 2; 
+
+    .home-set1-right {
+      order: 2;
       flex-basis: 50%; /* Take up half of the container width */
-      display: flex; 
+      display: flex;
       flex-direction: column; /* Stack title and box vertically */
-      
     }
+
+    .catFact-box {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        flex-shrink: 0;
+        border: 3px solid #000;
+        background: #FFF;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: -80px;
+        border-radius: 10px;
+      } 
   
     .catFact-title {
       text-align: center; /* Center-align the title */
-      font-size: 70px;
+      font-size: 80px;
+      color:var(--color-pink);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #000;
+      font-family: "Paytone One";
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      transform: rotate(-2.8deg);
+      z-index: 1;
     }
+
+    .catFact-subtitle {
+        color: #000;
+        font-family: "Gochi Hand";
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 40px auto 0 auto;
+      }
+
+    .home-button {
+        display: inline-flex;
+        padding: 12px 105px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 34px;
+        border: 2px solid #000;
+        background:var(--color-pink);
+        margin: 10px;
+        color: #FFF;
+        font-family: Outfit;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
   
-    .catFact-box {
-      width: 50%; /* Or adjust based on your design */
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center-align the box content */
-      text-align: center; /* Ensure text inside the box is centered */
+  
+    .home-green {
       position: absolute;
-      top: 280px;
-  
-    }
-  
-    .home-green{
-      position: absolute;
-      bottom:50px;
+      bottom: 50px;
       left: 0px;
       width: 200px;
     }
-    .home-toy{
+
+    .home-blue {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        width: 200px;
+        z-index: -1;
+      }
+      
+      .catFact-gif {
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+    .home-toy {
       position: absolute;
-      bottom: 0px;
+      bottom: 30px;
       left: 20px;
     }
-    .home-cat{
-      width:100%;
-    }
-  
-  }
-  
-  
+
+    .home-section2 {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 50px 0px -10px 0px;
+        background-color: white;
+      }
+      .catFact-box {
+        margin-top: -70px;
+      }
   
   /* Tablet styles */
-  @media (min-width: 768px) {
-    .section1 {
-      display: flex;
-      flex-direction: row; /* Change to row for side-by-side layout */
-      justify-content: center; /* Center the content horizontally */
-      align-items: center; /* Align items vertically in the center */
-      padding: 0; /* Adjust padding as needed */
-      height: 900px;
-      
-    }
-  
-    .home-cat {
-      order: 1; /* Ensure home-cat is on the left */
-      flex-basis: 50%; /* Take up half of the container width */
-      justify-content: center; /* Center the cat image vertically, if needed */
-      align-items: flex-start; /* Align the cat image to the start (left side) */
-      width: 500px; /* Or specify a width, if you want to control the size of the image */
-    }
-  
+  @media (min-width: 769px) and (max-width: 1023px) {
     .home-set1-right {
-      order: 2; /* Ensure this content is on the right */
-      flex-basis: 50%; /* Take up half of the container width */
-      display: flex;
-      flex-direction: column; /* Stack title and box vertically */
-      justify-content: center;
-      align-items: center; /* Center-align the content */
-      position:relative;
-      
+        
+        flex-basis: 40%; /* Take up half of the container width */
+        display: flex;
+        flex-direction: column; /* Stack title and box vertically */
+        margin-right: 100px;
+      }
+
+      .home-cat {
+        z-index: 1;
+         }
+    
+    .catFact-box {
+        width: 90%;
+      } 
+
+    .catFact-title {
+        font-size: 60px;
+      }     
+
+  
+
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .section1 {
+        display: flex;
+        flex-direction: column; /* Change to row to have side-by-side layout */
+        height: auto; 
+        justify-content: center;
+      align-items: center;
+      margin: auto;
+
     }
+
+    .home-set1-right {
+        order:1;
+        flex-basis: 50%; /* Take up half of the container width */
+        display: flex;
+      }
   
     .catFact-title {
-      text-align: center; /* Center-align the title */
-      margin-top:-540px;
-      font-size: 50px;
-      
-      
+      color:var(--color-pink);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #000;
+      font-family: "Paytone One";
+      font-size: 68px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      transform: rotate(-2.8deg);
+      z-index: 1;
     }
   
     .catFact-box {
-      width: 300px; /* Adjust based on your design, could be different for tablet */
+      width: 300px;
+      flex-shrink: 0;
+      border: 3px solid #000;
+      background: #FFF;
       padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center-align the box content
-      text-align: center; /* Ensure text inside the box is centered */
-      position: absolute;
-      top:-200px;
+      margin-top: -70px;
+    } 
+
+    .home-cat {
+        order: 2;
+        margin: -20px auto 0 auto;
+        z-index: 1;
+        
+        }
+
+    
+    .catFact-gif{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .home-blue {
+        top: 150px;
+        right: 0px;
+        width: 150px;
+        z-index: -1;
+      }
+    
+    .home-green {
+      bottom: -100px;
+      left: 0px;
+      width: 120px;
     }
   
-    .home-green{
-      position: absolute;
-      bottom:200px;
-      left: -20px;
-      width: 200px;
-      z-index: -1;
-  
+   
+    .home-toy {
+      bottom: -350px;
+      left: 10px;
     }
-    .home-toy{
-      position: absolute;
-      bottom: 50px;
-      left: 20px;
-    }
-  
+
+
   }
+  

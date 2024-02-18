@@ -9,3 +9,7 @@ body {
   
 }
 
+* {
+  --color-pink:#FF68F9;
+  --color-green:#E7FC4D;
+}

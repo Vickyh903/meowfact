@@ -40,12 +40,12 @@
 .form--button {
     display: flex;
     grid-column: 1 / -1;
-    padding: 26px 100px ;
+    padding: 16px 100px ;
     justify-content: center;
     align-items: center;
     border-radius: 34px;
     border: 2px solid #000;
-    background: #FF68F9;
+    background: var(--color-pink);
     margin: 10px;
       /*font style */
     color: #FFF;
@@ -68,9 +68,10 @@
 
 .meme--image {
     max-width:100%;
+    width: 600px;
     height: auto;
     border-radius: 5px;
-    margin-top: 60px;
+    margin: 60px  auto  60px auto;
 }
 
 .meme--text {

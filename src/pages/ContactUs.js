@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
+import images from "../images";
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -100,7 +101,7 @@ function ContactUs() {
       </form>
 
       <div className="contact-image">
-        <img src={`${process.env.PUBLIC_URL}/images/meow-contact.png`}/>
+        <img src={images.meowContact}/>
       </div>
       
     </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import './FunMeowPhotos.css';
+import images from "../images";
+
 
 
 
@@ -13,48 +15,48 @@ function FunMeowPhotos() {
       
 
 
-      <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun7.gif`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/cute8.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun2.gif`}/></div>
-        <div  className="big"><img src={`${process.env.PUBLIC_URL}/images/cute21.jpg`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/cute2.jpg`}/></div>
+      <div className="horizontal"><img src={images.fun7}/></div>
+        <div className="vertical"><img src={images.cute8}/></div>
+        <div className="horizontal"><img src={images.fun2}/></div>
+        <div  className="big"><img src={images.cute21}/></div>
+        <div className="vertical"><img src={images.cute2}/></div>
         
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/fun11.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute7.webp`}/></div>
+        <div className="vertical"><img src={images.fun11}/></div>
+        <div className="horizontal"><img src={images.cute7}/></div>
        
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute4.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun9.gif`}/></div>
-        <div  className="big"><img src={`${process.env.PUBLIC_URL}/images/cute5.jpg`}/></div>
+        <div className="horizontal"><img src={images.cute4}/></div>
+        <div className="horizontal"><img src={images.fun9}/></div>
+        <div  className="big"><img src={images.cute5}/></div>
 
 
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute11.jpg`}/></div>
-        <div className="big" ><img src={`${process.env.PUBLIC_URL}/images/cute16.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute13.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute6.jpg`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/cute3.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun3.gif`}/></div>
-        <div className="big"><img src={`${process.env.PUBLIC_URL}/images/cute1.jpg`}/></div>
+        <div className="horizontal"><img src={images.cute11}/></div>
+        <div className="big" ><img src={images.cute16}/></div>
+        <div className="horizontal"><img src={images.cute13}/></div>
+        <div className="horizontal"><img src={images.cute6}/></div>
+        <div className="vertical"><img src={images.cute3}/></div>
+        <div className="horizontal"><img src={images.fun3}/></div>
+        <div className="big"><img src={images.cute1}/></div>
         
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute10.webp`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/cute12.webp`}/></div>
-        <div><img src={`${process.env.PUBLIC_URL}/images/cute19.jpeg`}/></div>
-        <div className="big"><img src={`${process.env.PUBLIC_URL}/images/fun14.jpeg`}/></div>
+        <div className="horizontal"><img src={images.cute10}/></div>
+        <div className="vertical"><img src={images.cute12}/></div>
+        <div><img src={images.cute19}/></div>
+        <div className="big"><img src={images.fun14}/></div>
   
-        <div  className="big"><img src={`${process.env.PUBLIC_URL}/images/cute14.jpg`}/></div>
-        <div><img src={`${process.env.PUBLIC_URL}/images/fun1.gif`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun5.gif`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/cute9.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun12.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute15.jpg`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/fun8.gif`}/></div>
-        <div  className="big"><img src={`${process.env.PUBLIC_URL}/images/fun10.jpg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun4.gif`}/></div>
-        <div className="vertical"><img src={`${process.env.PUBLIC_URL}/images/fun6.gif`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/cute17.webp`}/></div>
-        <div><img src={`${process.env.PUBLIC_URL}/images/cute18.jpeg`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun13.jpeg`}/></div>
-        <div><img src={`${process.env.PUBLIC_URL}/images/cute20.webp`}/></div>
-        <div className="horizontal"><img src={`${process.env.PUBLIC_URL}/images/fun19.jpeg`}/></div>
+        <div  className="big"><img src={images.cute14}/></div>
+        <div><img src={images.fun1}/></div>
+        <div className="horizontal"><img src={images.fun5}/></div>
+        <div className="vertical"><img src={images.cute9}/></div>
+        <div className="horizontal"><img src={images.fun12}/></div>
+        <div className="horizontal"><img src={images.cute15}/></div>
+        <div className="vertical"><img src={images.fun8}/></div>
+        <div  className="big"><img src={images.fun10}/></div>
+        <div className="horizontal"><img src={images.fun4}/></div>
+        <div className="vertical"><img src={images.fun6}/></div>
+        <div className="horizontal"><img src={images.cute17}/></div>
+        <div><img src={images.cute18}/></div>
+        <div className="horizontal"><img src={images.fun13}/></div>
+        <div><img src={images.cute20}/></div>
+        <div className="horizontal"><img src={images.fun19}/></div>
 
 
    
